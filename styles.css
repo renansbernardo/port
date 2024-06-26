@@ -17,6 +17,10 @@ body {
     overflow: hidden;
 }
 
+.social img {
+    width: 33px;
+}
+
 .header-content {
     display: flex;
     align-items: center;
