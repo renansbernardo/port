@@ -73,6 +73,13 @@ nav ul li a:hover {
     
 }
 
+.sobre {
+
+    text-align:justify;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
 .passa {
     padding: 0;
 }
