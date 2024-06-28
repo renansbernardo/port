@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #a7b8d1;
+    background: linear-gradient(to bottom, #a7b8d1, #bde0b4);
     color: #333;
 }
 
@@ -63,7 +63,24 @@ nav ul li a {
     color: #e41e1edc;
     text-decoration: none;
     font-size: 18px;
-}   
+}
+
+nav ul li a:hover {
+    color: yellow; /* Cor ao passar o mouse */
+
+
+    
+    
+}
+
+.passa {
+    padding: 0;
+}
+
+.passa a:hover {
+    border-radius: 10px;
+    border: 1px solid #ff7e5f;
+}
 
 .section {
     padding: 20px 0;
@@ -78,6 +95,26 @@ nav ul li a {
     
     
     
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-list li {
+    display: inline;
+}
+
+.contact-list li a img {
+    transition: transform 0.3s ease; /* Transição suave para transformação */
+}
+
+.contact-list li a img:hover {
+    transform: scale(2); /* Dobrar o tamanho do ícone ao passar o mouse */
 }
 
 .contato-grid {
